@@ -1,0 +1,86 @@
+.card{
+  /* padding: 1rem; */
+  
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  /* border-radius: 14px; */
+  background-color: white;
+   width: 22%;
+margin-right: 30px;
+ margin-bottom: 60px;
+ position: relative ;
+ height: 50%;
+ 
+}
+.text{
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+}
+.image{
+  width: 100%;
+  position: relative;
+  z-index: 99;
+  /* height: 100%; */
+
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  
+.icon {
+   width: 1.35rem;
+   height: 1.35rem;
+   margin-right: 0.5rem;
+ 
+ }
+ .button{
+  background-color: white;
+padding-left: 9px;
+padding-right: 10px;
+padding-top: 11px;
+padding-bottom: 6px;
+  border-radius: 55%;
+  border: none;
+  display: none;
+   position:absolute;
+   top: 70%;
+   left: 95%;
+   width: 13%;
+  z-index: 999;
+  
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.button2{
+  background-color: white;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 8px;
+padding-bottom: 8px;
+  border-radius: 55%;
+  border: none;
+  
+   position:absolute;
+   top: 70%;
+   right: 43%;
+   /* left: 55%; */
+   width: 13%;
+  z-index: 999;
+  
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%; /* fill the full width of the container */
+    margin-right: 70px;
+   
+     /* remove the margins */
+    margin-bottom: 2rem; /* add a bottom margin for spacing */
+  }
+}

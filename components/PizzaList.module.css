@@ -1,0 +1,30 @@
+.container{
+padding-left: 80px;
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+     /* justify-content: center; */
+    align-items: center;
+}
+
+.menuproduct{
+    font-size: 20px;
+    display: inline-block;
+    font-family: Damion,Sans-serif;
+    color: #be9674;
+}
+.wrapper{
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:  center;
+   
+    
+}
+.text{
+    font-family: 'Lora', serif;
+    font-size: 40px;
+}

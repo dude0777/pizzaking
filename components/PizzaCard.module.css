@@ -81,6 +81,6 @@ padding-bottom: 8px;
     margin-right: 70px;
    
      /* remove the margins */
-    margin-bottom: 2rem; /* add a bottom margin for spacing */
+    margin-bottom: 2 rem; /* add a bottom margin for spacing */
   }
 }

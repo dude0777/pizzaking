@@ -35,7 +35,7 @@ export const getServerSideProps = async (ctx) => {
     admin = true;
   }
 //first we fetch data using axios and we stores them in the props variable as o
-  const res = await axios.get("http://localhost:3000/api/products");
+  const res = await axios.get("https://pizzaking-kyyu.vercel.app/api/products");
   return {
     props: {
       //we use pizza list prop up in the component and pass data down the pizza list component

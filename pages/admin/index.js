@@ -12,7 +12,7 @@ const Index = ({ orders, products }) => {
     console.log(id);
     try {
       const res = await axios.delete(
-        "http://localhost:3000/api/products/" + id
+        "https://pizzaking-kyyu.vercel.app//api/products/" + id
       );
       setPizzaList(pizzaList.filter((pizza) => pizza._id !== id));
     } catch (err) {
@@ -129,8 +129,8 @@ export const getServerSideProps = async (ctx) => {
     };
   }
 
-  const productRes = await axios.get("http://localhost:3000/api/products");
-  const orderRes = await axios.get("http://localhost:3000/api/orders");
+  const productRes = await axios.get("https://pizzaking-kyyu.vercel.app/api/products");
+  const orderRes = await axios.get("https://pizzaking-kyyu.vercel.app/api/orders");
 
   return {
     props: {

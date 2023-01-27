@@ -98,7 +98,7 @@ const Product = ({ pizza }) => {
 
 export const getServerSideProps = async ({ params }) => {
   const res = await axios.get(
-    `http://localhost:3000/api/products/${params.id}`
+    `https://pizzaking-kyyu.vercel.app/api/products/${params.id}`
   );
   //we are goin enpoint for fetchin single product from api [id].js file
   return {

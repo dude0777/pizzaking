@@ -26,7 +26,7 @@ const cart = () => {
 
   const createOrder = async (data) => {
     try {
-      const res = await axios.post("http://localhost:3000/api/orders", data);
+      const res = await axios.post("https://pizzaking-kyyu.vercel.app/api/orders", data);
     
         dispatch(reset());
         router.push(`/orders/${res.data._id}`);
